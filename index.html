@@ -1,14 +1,279 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
-    <script src="/public/__ENV.js" type="module"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Barend Nieuwoudt</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/aos.css?ver=1.1.0" rel="stylesheet">
+    <link href="css/bootstrap.min.css?ver=1.1.0" rel="stylesheet">
+    <link href="css/main.css?ver=1.1.0" rel="stylesheet">
+    <noscript>
+      <style type="text/css">
+        [data-aos] {
+            opacity: 1 !important;
+            transform: translate(0) scale(1) !important;
+        }
+      </style>
+    </noscript>
   </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+  <body id="top">
+    <header>
+      <div class="profile-page sidebar-collapse">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll="400">
+          <div class="container">
+            <div class="collapse navbar-collapse justify-content-end" id="navigation">
+              <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#skill">Skills</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#experience">Experience</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <div class="page-content">
+      <div>
+<div class="profile-page">
+  <div class="page-header page-header-small" filter-color="green">
+    
+	<div class="page-header-image" data-parallax="true" style="background-image: url('images/headerbg.jpg')"></div>
+    
+	<div class="container">
+      <div class="content-center">
+        <div class="cc-profile-image"><a href="https://barendnieuwoudt.github.io/"><img src="images/barend.png" alt="Image"/></a></div>
+        <div class="h2 title">Barend Nieuwoudt</div>
+        <p class="category text-white">Software Engineer, Dodgeball Player, Gamer, Maker & Professional Nerd</p>
+        <a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Contact Me</a>
+      </div>
+    </div>
+    
+	<div class="section">
+      <div class="container">
+        <div class="button-container">
+          <a class="btn btn-default btn-round btn-lg btn-icon" href="https://linktr.ee/BennieWasHere" rel="tooltip" title="Visit My Link Tree"><i class="fa fa-tree "></i></a>
+          <a class="btn btn-default btn-round btn-lg btn-icon" href="https://github.com/BarendNieuwoudt" rel="tooltip" title="Visit My GitHub"><i class="fa fa-github "></i></a>
+          <a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.linkedin.com/in/barendnieuwoudt/" rel="tooltip" title="Visit My LinkedIn"><i class="fa fa-linkedin "></i></a>
+          <a class="btn btn-default btn-round btn-lg btn-icon" href="https://medium.com/@barendnieuwoudt" rel="tooltip" title="Visit My Medium Profile"><i class="fa fa-medium "></i></a>
+          <a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.youtube.com/c/BarendNieuwoudtZA" rel="tooltip" title="Visit My YouTube Channel"><i class="fa fa-youtube-play "></i></a>
+        </div>
+      </div>
+    </div>
+	
+  </div>
+</div>
+
+<div class="section" id="about">
+  <div class="container">
+    <div class="card" data-aos="fade-up" data-aos-offset="10">
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <div class="card-body">
+            <div class="h4 mt-0 title">Software Engineer & Consultant</div>
+            <i><p>Passionate, Curious, Hard Working, Disciplined & Striving to Consistently Exceed Expectations.</p></i>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <div class="card-body">
+			<div class="h4 mt-0 title">About</div>
+            <div class="row">
+              <div class="col-sm-4"><strong class="text-uppercase">Born:</strong></div>
+              <div class="col-sm-8">25 April, 1996</div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-sm-4"><strong class="text-uppercase">Address:</strong></div>
+              <div class="col-sm-8">Brackenfell, Western Cape, South Africa</div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-sm-4"><strong class="text-uppercase">Language:</strong></div>
+              <div class="col-sm-8">English, Afrikaans</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section" id="projects">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 ml-auto mr-auto">
+        <div class="h4 text-center mb-4 title">Projects</div>
+        <div class="nav-align-center">
+          <ul class="nav nav-pills nav-pills-primary" role="tablist">
+            <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#web-development" role="tablist"><i class="fa fa-bookmark" aria-hidden="true"></i></a></li>
+            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#graphic-design" role="tablist"><i class="fa fa-circle-o" aria-hidden="true"></i></a></li>
+            <!--<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Photography" role="tablist"><i class="fa fa-camera" aria-hidden="true"></i></a></li>-->
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="tab-content gallery mt-5">
+      <div class="tab-pane active" id="web-development">
+	    <div class="ml-auto mr-auto">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#projects">
+                  <figure class="cc-effect"><img src="images/reading-project-1.png" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">2024</div>
+                      <p>Reading List</p>
+                    </figcaption>
+                  </figure></a></div>
+            </div>
+            <div class="col-md-6">
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#projects">
+                  <figure class="cc-effect"><img src="images/reading-project-2.png" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">2023</div>
+                      <p>Reading List</p>
+                    </figcaption>
+                  </figure></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+	  <div class="tab-pane" id="graphic-design" role="tabpanel">
+        <div class="ml-auto mr-auto">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
+                  <figure class="cc-effect"><img src="images/dodgeball-project.png" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">International Competitions</div>
+                      <p>Dodgeball</p>
+                    </figcaption>
+                  </figure></a></div>
+            </div>
+            <div class="col-md-6">
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
+                  <figure class="cc-effect"><img src="images/dodgeball-project-2.png" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Local Competitions</div>
+                      <p>Dodgeball</p>
+                    </figcaption>
+                  </figure></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section" id="experience">
+  <div class="container cc-experience">
+    <div class="h4 text-center mb-4 title">Work Experience</div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-experience-header">
+            <p>June 2023 - Present</p>
+            <div class="h5">Entelect</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Sanlam: IAP Project</div>
+            <p><b>Software Engineer & Consultant (June 2023 - Present)</b></p>
+			<p>Java, Spring Boot, Spring Webflux, SSMS, SSIS </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-experience-header">
+            <p>April 2019 - May 2023</p>
+            <div class="h5">ACI Worldwide</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Software Engineer</div>
+            <p>Java, Python, SQL, Delphi, SpringBoot, Gradle, Locust, Perforce, Git, BitBucket, Eclipse, Swagger, OpenApi, Jenkins, Jira, Kafka.</p>
+			<p class="category">ACI Recognition Program: Accountability, 2022</p>
+			<p>“For a large part of 2021 you were essentially the only full-time dev in the Avengers. You always took on everything we threw at you happily and with enthusiasm.”</p>
+			<p class="category">ACI Recognition Program: Integrity, 2021</p>
+			<p>“Automated Creation of API test cases from YAML specs saved 2000 Hours of what would have otherwise been a manual, monotonous piece of work.“</p>
+			<p class="category">Hackathon, 3rd Place, 2021</p>
+			<p>Created a Jenkins ‘console output parser’ to clean the text output of unnecessary things and highlight important information.</p>
+			<p class="category">Hackathon, 3rd Place, 2020</p>
+			<p>Worked on a team to create a searchable database that had all the documentation, jira stories, confluence pages, and support emails in it. This application was designed to assist the support team.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="container cc-education">
+    <div class="h4 text-center mb-4 title">Education</div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-education-header">
+            <p>2016 - 2019</p>
+            <div class="h5">Bachelor of Science in Computing</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">University of South Africa</div>
+            <p class="category">January 2016 - December 2019 (4 Years)</p>
+            <p><b>3rd Level:</b> Theoretical Computer Science, Operating Systems & Architecture, Databases, Advanced Systems Development, Database Design & Implementation, Software Project Management, Computer Graphics, Techniques of Artificial Intelligence, Formal Logic 3, Advanced Programming.</p>
+			<p><b>2nd Level:</b> Theoretical Computer Science, Programming Data Structures, Programming Contemporary Concepts, Computer Organization, Computer Networks, Structured System Analysis & Design, Object Oriented Analysis, Databases, Intro to Statistics, Formal Logic, Visual Programming.</p>
+			<p><b>1st Level:</b> Intro to Programming, Theoretical Computer Science, Computer Systems, Visual Programming, Human-Computer Interaction.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-education-header">
+            <p>2010 - 2014</p>
+            <div class="h5">National Senior Certificate</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Paarl Gimnasium High School</div>
+            <p class="category">January 2010 - December 2014</p>
+            <p>Mathematics, English Home Language, Afrikaans Huistaal, Life Orientation, Geography, Engineering Graphics and Design, Information Technology, Physical Sciences.</p>
+			<p class="category">Highest Marks Achieved in Engineering Graphics & Design, 2014</p>
+			<p class="category">Highest Marks Achieved in Information Technology, 2013</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+    </div>
+    <footer class="footer">
+      <div class="container text-center">
+		<a class="cc-instagram btn btn-link" href="https://linktr.ee/BennieWasHere"><i class="fa fa-tree fa-2x " aria-hidden="true"></i></a>
+		<a class="cc-instagram btn btn-link" href="https://github.com/BarendNieuwoudt"><i class="fa fa-github fa-2x " aria-hidden="true"></i></a>
+		<a class="cc-instagram btn btn-link" href="https://www.linkedin.com/in/barendnieuwoudt/"><i class="fa fa-linkedin fa-2x " aria-hidden="true"></i></a>
+		<a class="cc-instagram btn btn-link" href="https://medium.com/@barendnieuwoudt"><i class="fa fa-medium fa-2x " aria-hidden="true"></i></a>
+		<a class="cc-instagram btn btn-link" href="https://www.youtube.com/c/BarendNieuwoudtZA"><i class="fa fa-youtube-play fa-2x " aria-hidden="true"></i></a>
+	  </div>
+    </footer>
+    <script src="js/core/jquery.3.2.1.min.js?ver=1.1.0"></script>
+    <script src="js/core/popper.min.js?ver=1.1.0"></script>
+    <script src="js/core/bootstrap.min.js?ver=1.1.0"></script>
+    <script src="js/now-ui-kit.js?ver=1.1.0"></script>
+    <script src="js/aos.js?ver=1.1.0"></script>
+    <script src="scripts/main.js?ver=1.1.0"></script>
   </body>
 </html>
